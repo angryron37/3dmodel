@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  font-family: Arial, sans-serif;
+  background-color: #000;
+}
+
+#overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+}
+
+#enter {
+  text-align: center;
+  color: white;
+}
+
+#enter-btn {
+  margin-top: 20px;
+  padding: 12px 24px;
+  font-size: 18px;
+  cursor: pointer;
+  border: none;
+  border-radius: 8px;
+  background: #ffffff20;
+  color: white;
+  transition: background 0.3s;
+}
+
+#enter-btn:hover {
+  background: #ffffff40;
+}
+
+canvas#webgl {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
